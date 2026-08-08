@@ -1,0 +1,293 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- ============================================================
+     sitemap.xml | گرامر جامع کنکور | Mr.Lee
+     نسخه: 3.0.0 - Ultimate Enterprise Masterpiece
+     معماری: SPA (Single Page Application)
+     قابلیت‌ها: تصاویر، اخبار، موبایل، چندزبانه
+     ============================================================ -->
+
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+        xmlns:xhtml="http://www.w3.org/1999/xhtml"
+        xmlns:image="http://www.google.com/schemas/sitemap-image/1.1"
+        xmlns:video="http://www.google.com/schemas/sitemap-video/1.1"
+        xmlns:news="http://www.google.com/schemas/sitemap-news/0.9"
+        xmlns:mobile="http://www.google.com/schemas/sitemap-mobile/1.0">
+
+    <!-- ============================================================
+         ۱. صفحه اصلی (بالاترین اولویت)
+         ============================================================ -->
+    <url>
+        <loc>https://muhammad-lee.github.io/konkur-grammar/</loc>
+        <lastmod>2026-08-09</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>1.0</priority>
+        
+        <xhtml:link rel="alternate" hreflang="fa" href="https://muhammad-lee.github.io/konkur-grammar/" />
+        <xhtml:link rel="alternate" hreflang="en" href="https://muhammad-lee.github.io/konkur-grammar/en/" />
+        <xhtml:link rel="alternate" hreflang="ar" href="https://muhammad-lee.github.io/konkur-grammar/ar/" />
+        
+        <image:image>
+            <image:loc>https://muhammad-lee.github.io/konkur-grammar/icon-512.png</image:loc>
+            <image:title>گرامر جامع کنکور | Mr.Lee</image:title>
+            <image:caption>آموزش کامل گرامر انگلیسی برای کنکور با ۹۰ تست تشریحی</image:caption>
+            <image:geo_location>Iran, Tehran</image:geo_location>
+            <image:license>https://muhammad-lee.github.io/konkur-grammar/license</image:license>
+        </image:image>
+        
+        <news:news>
+            <news:publication>
+                <news:name>گرامر جامع کنکور</news:name>
+                <news:language>fa</news:language>
+            </news:publication>
+            <news:publication_date>2026-08-09</news:publication_date>
+            <news:title>گرامر جامع کنکور ۱۴۰۴ - نسخه نهایی</news:title>
+            <news:keywords>گرامر, کنکور, زبان انگلیسی, آموزش, تست</news:keywords>
+        </news:news>
+        
+        <mobile:mobile/>
+    </url>
+
+    <!-- ============================================================
+         ۲. مباحث گرامری (با تصاویر اختصاصی)
+         ============================================================ -->
+
+    <!-- ============================================================
+         ۲-۱. زمان‌ها (بالاترین اولویت)
+         ============================================================ -->
+    <url>
+        <loc>https://muhammad-lee.github.io/konkur-grammar/#tenses</loc>
+        <lastmod>2026-08-09</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.95</priority>
+        
+        <xhtml:link rel="alternate" hreflang="fa" href="https://muhammad-lee.github.io/konkur-grammar/#tenses" />
+        <xhtml:link rel="alternate" hreflang="en" href="https://muhammad-lee.github.io/konkur-grammar/en/#tenses" />
+        
+        <image:image>
+            <image:loc>https://muhammad-lee.github.io/konkur-grammar/images/tenses.webp</image:loc>
+            <image:title>زمان‌ها در گرامر انگلیسی</image:title>
+            <image:caption>آموزش کامل ۶ زمان اصلی در گرامر انگلیسی به همراه مثال‌های کنکوری</image:caption>
+            <image:geo_location>Iran, Tehran</image:geo_location>
+        </image:image>
+        
+        <image:image>
+            <image:loc>https://muhammad-lee.github.io/konkur-grammar/images/tenses-chart.webp</image:loc>
+            <image:title>جدول زمان‌های گرامر انگلیسی</image:title>
+            <image:caption>جدول کامل زمان‌ها با ساختار و مثال‌های کاربردی برای کنکور</image:caption>
+        </image:image>
+        
+        <mobile:mobile/>
+    </url>
+
+    <!-- ============================================================
+         ۲-۲. شرطی‌ها
+         ============================================================ -->
+    <url>
+        <loc>https://muhammad-lee.github.io/konkur-grammar/#conditionals</loc>
+        <lastmod>2026-08-09</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.95</priority>
+        
+        <xhtml:link rel="alternate" hreflang="fa" href="https://muhammad-lee.github.io/konkur-grammar/#conditionals" />
+        <xhtml:link rel="alternate" hreflang="en" href="https://muhammad-lee.github.io/konkur-grammar/en/#conditionals" />
+        
+        <image:image>
+            <image:loc>https://muhammad-lee.github.io/konkur-grammar/images/conditionals.webp</image:loc>
+            <image:title>شرطی‌ها در گرامر انگلیسی</image:title>
+            <image:caption>آموزش کامل ۴ نوع شرطی در گرامر انگلیسی با مثال‌های کنکوری</image:caption>
+        </image:image>
+        
+        <mobile:mobile/>
+    </url>
+
+    <!-- ============================================================
+         ۲-۳. مجهول
+         ============================================================ -->
+    <url>
+        <loc>https://muhammad-lee.github.io/konkur-grammar/#passive</loc>
+        <lastmod>2026-08-09</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.90</priority>
+        
+        <xhtml:link rel="alternate" hreflang="fa" href="https://muhammad-lee.github.io/konkur-grammar/#passive" />
+        <xhtml:link rel="alternate" hreflang="en" href="https://muhammad-lee.github.io/konkur-grammar/en/#passive" />
+        
+        <image:image>
+            <image:loc>https://muhammad-lee.github.io/konkur-grammar/images/passive.webp</image:loc>
+            <image:title>مجهول در گرامر انگلیسی</image:title>
+            <image:caption>آموزش کامل ساختار مجهول در زمان‌های مختلف با مثال‌های کنکوری</image:caption>
+        </image:image>
+        
+        <mobile:mobile/>
+    </url>
+
+    <!-- ============================================================
+         ۲-۴. افعال مرکب
+         ============================================================ -->
+    <url>
+        <loc>https://muhammad-lee.github.io/konkur-grammar/#phrasal</loc>
+        <lastmod>2026-08-09</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.90</priority>
+        
+        <xhtml:link rel="alternate" hreflang="fa" href="https://muhammad-lee.github.io/konkur-grammar/#phrasal" />
+        <xhtml:link rel="alternate" hreflang="en" href="https://muhammad-lee.github.io/konkur-grammar/en/#phrasal" />
+        
+        <image:image>
+            <image:loc>https://muhammad-lee.github.io/konkur-grammar/images/phrasal.webp</image:loc>
+            <image:title>افعال مرکب در گرامر انگلیسی</image:title>
+            <image:caption>آموزش کامل افعال مرکب پرکاربرد با مثال‌های کنکوری</image:caption>
+        </image:image>
+        
+        <mobile:mobile/>
+    </url>
+
+    <!-- ============================================================
+         ۲-۵. مصدر و اسم مصدر
+         ============================================================ -->
+    <url>
+        <loc>https://muhammad-lee.github.io/konkur-grammar/#gerund</loc>
+        <lastmod>2026-08-09</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.85</priority>
+        
+        <xhtml:link rel="alternate" hreflang="fa" href="https://muhammad-lee.github.io/konkur-grammar/#gerund" />
+        <xhtml:link rel="alternate" hreflang="en" href="https://muhammad-lee.github.io/konkur-grammar/en/#gerund" />
+        
+        <image:image>
+            <image:loc>https://muhammad-lee.github.io/konkur-grammar/images/gerund.webp</image:loc>
+            <image:title>مصدر و اسم مصدر در گرامر انگلیسی</image:title>
+            <image:caption>آموزش کامل تفاوت‌های مصدر و اسم مصدر با مثال‌های کنکوری</image:caption>
+        </image:image>
+        
+        <mobile:mobile/>
+    </url>
+
+    <!-- ============================================================
+         ۲-۶. موصولی‌ها
+         ============================================================ -->
+    <url>
+        <loc>https://muhammad-lee.github.io/konkur-grammar/#relative</loc>
+        <lastmod>2026-08-09</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.85</priority>
+        
+        <xhtml:link rel="alternate" hreflang="fa" href="https://muhammad-lee.github.io/konkur-grammar/#relative" />
+        <xhtml:link rel="alternate" hreflang="en" href="https://muhammad-lee.github.io/konkur-grammar/en/#relative" />
+        
+        <image:image>
+            <image:loc>https://muhammad-lee.github.io/konkur-grammar/images/relative.webp</image:loc>
+            <image:title>موصولی‌ها در گرامر انگلیسی</image:title>
+            <image:caption>آموزش کامل جملات موصولی با who, which, that, whose و مثال‌های کنکوری</image:caption>
+        </image:image>
+        
+        <mobile:mobile/>
+    </url>
+
+    <!-- ============================================================
+         ۲-۷. نقل قول
+         ============================================================ -->
+    <url>
+        <loc>https://muhammad-lee.github.io/konkur-grammar/#reported</loc>
+        <lastmod>2026-08-09</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.80</priority>
+        
+        <xhtml:link rel="alternate" hreflang="fa" href="https://muhammad-lee.github.io/konkur-grammar/#reported" />
+        <xhtml:link rel="alternate" hreflang="en" href="https://muhammad-lee.github.io/konkur-grammar/en/#reported" />
+        
+        <image:image>
+            <image:loc>https://muhammad-lee.github.io/konkur-grammar/images/reported.webp</image:loc>
+            <image:title>نقل قول در گرامر انگلیسی</image:title>
+            <image:caption>آموزش کامل تغییرات زمان‌ها و ضمایر در نقل قول با مثال‌های کنکوری</image:caption>
+        </image:image>
+        
+        <mobile:mobile/>
+    </url>
+
+    <!-- ============================================================
+         ۲-۸. وارونه
+         ============================================================ -->
+    <url>
+        <loc>https://muhammad-lee.github.io/konkur-grammar/#inversion</loc>
+        <lastmod>2026-08-09</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.75</priority>
+        
+        <xhtml:link rel="alternate" hreflang="fa" href="https://muhammad-lee.github.io/konkur-grammar/#inversion" />
+        <xhtml:link rel="alternate" hreflang="en" href="https://muhammad-lee.github.io/konkur-grammar/en/#inversion" />
+        
+        <image:image>
+            <image:loc>https://muhammad-lee.github.io/konkur-grammar/images/inversion.webp</image:loc>
+            <image:title>ساختارهای وارونه در گرامر انگلیسی</image:title>
+            <image:caption>آموزش کامل ساختارهای وارونه با مثال‌های کنکوری</image:caption>
+        </image:image>
+        
+        <mobile:mobile/>
+    </url>
+
+    <!-- ============================================================
+         ۲-۹. وجه وصفی
+         ============================================================ -->
+    <url>
+        <loc>https://muhammad-lee.github.io/konkur-grammar/#participles</loc>
+        <lastmod>2026-08-09</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.75</priority>
+        
+        <xhtml:link rel="alternate" hreflang="fa" href="https://muhammad-lee.github.io/konkur-grammar/#participles" />
+        <xhtml:link rel="alternate" hreflang="en" href="https://muhammad-lee.github.io/konkur-grammar/en/#participles" />
+        
+        <image:image>
+            <image:loc>https://muhammad-lee.github.io/konkur-grammar/images/participles.webp</image:loc>
+            <image:title>وجه وصفی در گرامر انگلیسی</image:title>
+            <image:caption>آموزش کامل وجه وصفی با مثال‌های کنکوری</image:caption>
+        </image:image>
+        
+        <mobile:mobile/>
+    </url>
+
+    <!-- ============================================================
+         ۳. نسخه‌های مختلف سایت
+         ============================================================ -->
+    <url>
+        <loc>https://muhammad-lee.github.io/konkur-grammar/mobile/</loc>
+        <lastmod>2026-08-09</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.80</priority>
+        <mobile:mobile/>
+    </url>
+
+    <url>
+        <loc>https://muhammad-lee.github.io/konkur-grammar/desktop/</loc>
+        <lastmod>2026-08-09</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.80</priority>
+    </url>
+
+    <url>
+        <loc>https://muhammad-lee.github.io/konkur-grammar/light/</loc>
+        <lastmod>2026-08-09</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.60</priority>
+    </url>
+
+    <!-- ============================================================
+         ۴. نقشه تصاویر (برای گوگل تصاویر)
+         ============================================================ -->
+    <url>
+        <loc>https://muhammad-lee.github.io/konkur-grammar/images/</loc>
+        <lastmod>2026-08-09</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.50</priority>
+        <image:image>
+            <image:loc>https://muhammad-lee.github.io/konkur-grammar/icon-512.png</image:loc>
+            <image:title>آیکون اصلی گرامر جامع کنکور</image:title>
+        </image:image>
+        <image:image>
+            <image:loc>https://muhammad-lee.github.io/konkur-grammar/icon-192.png</image:loc>
+            <image:title>آیکون برنامه گرامر جامع کنکور</image:title>
+        </image:image>
+    </url>
+
+</urlset>

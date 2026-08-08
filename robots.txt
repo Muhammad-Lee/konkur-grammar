@@ -1,0 +1,294 @@
+# ============================================================
+# robots.txt | گرامر جامع کنکور | Mr.Lee
+# نسخه: 4.0.0 - Ultimate Enterprise Grade
+# معماری: SPA (Single Page Application)
+# بهینه‌شده برای: آموزش، کنکور، محتوای گرامری
+# ============================================================
+
+# ============================================================
+# ۱. قوانین عمومی (پایه)
+# ============================================================
+
+User-agent: *
+Allow: /
+Allow: /assets/images/
+Allow: /assets/fonts/
+Allow: /assets/icons/
+
+# ============================================================
+# ۲. مسیرهای ممنوعه (حفاظت از منابع)
+# ============================================================
+
+Disallow: /admin/
+Disallow: /api/
+Disallow: /backup/
+Disallow: /config/
+Disallow: /database/
+Disallow: /includes/
+Disallow: /logs/
+Disallow: /private/
+Disallow: /scripts/
+Disallow: /temp/
+Disallow: /tmp/
+Disallow: /vendor/
+Disallow: /node_modules/
+Disallow: /assets/scss/
+Disallow: /assets/sass/
+Disallow: /assets/less/
+Disallow: /assets/css/partials/
+Disallow: /assets/css/vendor/
+Disallow: /assets/js/vendor/
+Disallow: /assets/js/modules/
+
+# ============================================================
+# ۳. جلوگیری از ایندکس شدن پارامترهای URL
+# ============================================================
+
+Disallow: /*?*
+Disallow: /*&*
+Disallow: /*utm_*
+Disallow: /*fbclid=*
+Disallow: /*ref=*
+Disallow: /*source=*
+Disallow: /*campaign=*
+Disallow: /*medium=*
+Disallow: /*term=*
+Disallow: /*content=*
+Disallow: /*gclid=*
+
+# ============================================================
+# ۴. تنظیمات سرعت خزش
+# ============================================================
+
+Crawl-delay: 3
+Request-rate: 2/5s
+
+# ============================================================
+# ۵. تنظیمات اختصاصی برای موتورهای جستجو
+# ============================================================
+
+# گوگل
+User-agent: Googlebot
+Allow: /
+Allow: /assets/images/
+Allow: /assets/fonts/
+Disallow: /admin/
+Disallow: /api/
+Disallow: /assets/scss/
+Disallow: /assets/js/vendor/
+Disallow: /*?*
+Crawl-delay: 0.5
+Request-rate: 5/3s
+
+# بینگ
+User-agent: Bingbot
+Allow: /
+Allow: /assets/images/
+Disallow: /admin/
+Disallow: /api/
+Disallow: /*?*
+Crawl-delay: 1
+Request-rate: 3/5s
+
+# یاندکس
+User-agent: Yandex
+Allow: /
+Disallow: /admin/
+Disallow: /api/
+Disallow: /*?*
+Crawl-delay: 1
+Request-rate: 3/5s
+
+# بایدو (چین)
+User-agent: Baiduspider
+Allow: /
+Disallow: /admin/
+Disallow: /api/
+Disallow: /*?*
+Crawl-delay: 2
+Request-rate: 2/5s
+
+# دوک‌دوک‌گو (کره)
+User-agent: Daum
+Allow: /
+Disallow: /admin/
+Disallow: /api/
+Disallow: /*?*
+Crawl-delay: 2
+
+# ============================================================
+# ۶. بلاک کردن خزنده‌های مخرب و غیرضروری
+# ============================================================
+
+# خزنده‌های سرقت محتوا
+User-agent: MJ12bot
+Disallow: /
+
+User-agent: AhrefsBot
+Disallow: /
+
+User-agent: SemrushBot
+Disallow: /
+
+User-agent: DotBot
+Disallow: /
+
+User-agent: UptimeRobot
+Disallow: /
+
+# خزنده‌های هوش مصنوعی
+User-agent: GPTBot
+Disallow: /
+
+User-agent: CCBot
+Disallow: /
+
+User-agent: Bytespider
+Disallow: /
+
+User-agent: Amazonbot
+Disallow: /
+
+User-agent: Google-Extended
+Disallow: /
+
+User-agent: FacebookBot
+Disallow: /
+
+User-agent: ClaudeBot
+Disallow: /
+
+User-agent: Omgilibot
+Disallow: /
+
+# خزنده‌های مخرب دیگر
+User-agent: PetalBot
+Disallow: /
+
+User-agent: YandexBot
+Disallow: /admin/
+Disallow: /api/
+
+User-agent: YandexMobileBot
+Disallow: /admin/
+Disallow: /api/
+
+User-agent: YandexImages
+Disallow: /
+
+User-agent: YandexVideo
+Disallow: /
+
+User-agent: YandexBlogs
+Disallow: /
+
+User-agent: YandexNews
+Disallow: /
+
+User-agent: YandexMetrika
+Disallow: /
+
+# خزنده‌های ایمیل
+User-agent: EmailCollector
+Disallow: /
+
+User-agent: EmailSiphon
+Disallow: /
+
+User-agent: EmailWolf
+Disallow: /
+
+# خزنده‌های غیرضروری
+User-agent: Cốc Cốc
+Disallow: /admin/
+Disallow: /api/
+
+User-agent: Sogou
+Disallow: /admin/
+Disallow: /api/
+
+User-agent: Exabot
+Disallow: /admin/
+Disallow: /api/
+
+# ============================================================
+# ۷. تنظیمات برای خزنده‌های گوشی‌های موبایل
+# ============================================================
+
+User-agent: Googlebot-Mobile
+Allow: /
+Crawl-delay: 0.5
+Request-rate: 5/3s
+
+User-agent: Bingbot-Mobile
+Allow: /
+Crawl-delay: 1
+
+User-agent: Mobile
+Allow: /
+Crawl-delay: 1
+
+# ============================================================
+# ۸. تنظیمات برای خزنده‌های تصاویر
+# ============================================================
+
+User-agent: Googlebot-Image
+Allow: /assets/images/
+Disallow: /
+
+User-agent: Bingbot-Image
+Allow: /assets/images/
+Disallow: /
+
+User-agent: YandexImages
+Allow: /assets/images/
+Disallow: /
+
+# ============================================================
+# ۹. تنظیمات برای خزنده‌های ویدیو
+# ============================================================
+
+User-agent: Googlebot-Video
+Allow: /assets/videos/
+Disallow: /
+
+User-agent: Bingbot-Video
+Allow: /assets/videos/
+Disallow: /
+
+# ============================================================
+# ۱۰. تنظیمات برای خزنده‌های اخبار
+# ============================================================
+
+User-agent: Googlebot-News
+Allow: /
+Crawl-delay: 0.5
+
+User-agent: Bingbot-News
+Allow: /
+Crawl-delay: 1
+
+# ============================================================
+# ۱۱. معرفی نقشه‌های سایت
+# ============================================================
+
+Sitemap: https://muhammad-lee.github.io/konkur-grammar/sitemap.xml
+Sitemap: https://muhammad-lee.github.io/konkur-grammar/sitemap-news.xml
+
+# ============================================================
+# ۱۲. اطلاعات اضافی برای خزنده‌ها
+# ============================================================
+
+# این سایت یک SPA آموزشی برای گرامر کنکور است.
+# زبان اصلی: فارسی (fa)
+# نویسنده: Mr.Lee
+# URL اصلی: https://muhammad-lee.github.io/konkur-grammar/
+# توضیحات: آموزش گرامر انگلیسی برای کنکور با ۹۰ تست تشریحی
+# 
+# نکات:
+# 1. محتوای اصلی در index.html قرار دارد.
+# 2. از کش کردن محتوای استاتیک استفاده کنید.
+# 3. زمان بارگذاری کمتر از ۲ ثانیه است.
+# 4. سایت با HTTPS در دسترس است.
+# 
+# - تیم توسعه Mr.Lee

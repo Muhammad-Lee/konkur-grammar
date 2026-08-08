@@ -1,0 +1,832 @@
+<!DOCTYPE html>
+<html lang="fa" dir="rtl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=yes">
+    
+    <!-- ============================================
+         عنوان و توضیحات (بهبود سئو)
+         ============================================ -->
+    <title>آموزش گرامر کنکور Mr.Lee | ۹۰ تست تشریحی ۱۴۰۰-۱۴۰۴</title>
+    <meta name="description" content="گرامر جامع زبان انگلیسی برای کنکور: ۹ مبحث گرامری، ۹۰ تست تشریحی با پاسخنامه کامل از کنکورهای ۱۴۰۰ تا ۱۴۰۴ | Mr.Lee">
+    <meta name="keywords" content="گرامر کنکور, زبان انگلیسی, تست گرامر, Mr.Lee, آموزش زبان, کنکور ۱۴۰۴, زمانها, شرطیها, مجهول">
+    <link rel="canonical" href="https://muhammad-lee.github.io/konkur-grammar/">
+    
+    <!-- ============================================
+         Open Graph (بهبود سئو و اشتراک‌گذاری)
+         ============================================ -->
+    <meta property="og:title" content="گرامر جامع کنکور | Mr.Lee">
+    <meta property="og:description" content="آموزش کامل گرامر زبان انگلیسی برای کنکور با ۹۰ تست تشریحی و پاسخنامه کامل | Mr.Lee">
+    <meta property="og:image" content="https://muhammad-lee.github.io/konkur-grammar/icon-512.png">
+    <meta property="og:url" content="https://muhammad-lee.github.io/konkur-grammar/">
+    <meta property="og:type" content="website">
+    <meta property="og:locale" content="fa_IR">
+    
+    <!-- ============================================
+         Twitter Card
+         ============================================ -->
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:title" content="گرامر جامع کنکور | Mr.Lee">
+    <meta name="twitter:description" content="آموزش کامل گرامر زبان انگلیسی برای کنکور با ۹۰ تست تشریحی">
+    <meta name="twitter:image" content="https://muhammad-lee.github.io/konkur-grammar/icon-512.png">
+    
+    <!-- ============================================
+         PWA
+         ============================================ -->
+    <link rel="manifest" href="/konkur-grammar/manifest.json">
+    <meta name="theme-color" content="#0f2b4b">
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+    <link rel="apple-touch-icon" href="/konkur-grammar/apple-touch-icon.png">
+    
+    <!-- ============================================
+         آیکون‌ها
+         ============================================ -->
+    <link rel="icon" type="image/x-icon" href="/konkur-grammar/favicon.ico">
+    <link rel="icon" type="image/png" sizes="192x192" href="/konkur-grammar/icon-192.png">
+    <link rel="icon" type="image/png" sizes="512x512" href="/konkur-grammar/icon-512.png">
+    
+    <!-- ============================================
+         Font Awesome بهینه (با SRI)
+         ============================================ -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    
+    <style>
+        /* ============================================
+           تم رنگی (آبی نفتی/طلایی) با CSS Variables
+           ============================================ */
+        :root {
+            --primary: #0f2b4b;
+            --primary-dark: #0a1f33;
+            --primary-light: #1a4a7a;
+            --gold: #c9a84c;
+            --gold-light: #ffd966;
+            --bg: #f4f6f9;
+            --text: #1e293b;
+            --radius: 16px;
+            --shadow: 0 4px 12px rgba(0,0,0,0.06);
+            --font-main: 'Vazir', 'Segoe UI', Tahoma, sans-serif;
+        }
+        
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        
+        body {
+            font-family: var(--font-main);
+            background: var(--bg);
+            color: var(--text);
+            direction: rtl;
+            padding: 16px 12px 40px;
+        }
+        
+        .container {
+            max-width: 800px;
+            margin: 0 auto;
+        }
+        
+        /* ============================================
+           هدر
+           ============================================ */
+        header {
+            text-align: center;
+            padding: 20px 0 10px;
+        }
+        
+        header h1 {
+            font-size: 26px;
+            font-weight: 800;
+            color: var(--primary);
+            letter-spacing: -0.5px;
+        }
+        
+        header p {
+            color: #64748b;
+            font-size: 14px;
+            margin-top: 4px;
+        }
+        
+        header .badge {
+            display: inline-block;
+            background: var(--gold);
+            color: var(--primary);
+            padding: 4px 16px;
+            border-radius: 30px;
+            font-size: 13px;
+            font-weight: 700;
+            margin-top: 8px;
+        }
+        
+        /* ============================================
+           دکمه‌های منو
+           ============================================ */
+        nav {
+            display: grid;
+            grid-template-columns: repeat(auto-fill, minmax(150px, 1fr));
+            gap: 12px;
+            margin: 20px 0 30px;
+        }
+        
+        .btn-section {
+            background: white;
+            border: none;
+            border-radius: var(--radius);
+            padding: 16px 8px;
+            text-align: center;
+            box-shadow: var(--shadow);
+            transition: 0.25s ease;
+            cursor: pointer;
+            font-size: 13px;
+            font-weight: 600;
+            color: var(--text);
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            gap: 6px;
+            font-family: inherit;
+        }
+        
+        .btn-section .icon {
+            font-size: 28px;
+            color: var(--primary-light);
+        }
+        
+        .btn-section:hover {
+            transform: translateY(-4px);
+            box-shadow: 0 10px 28px rgba(0,0,0,0.10);
+            background: #f8fafc;
+        }
+        
+        .btn-section:focus-visible {
+            outline: 3px solid var(--gold);
+            outline-offset: 2px;
+        }
+        
+        .btn-section.active {
+            background: var(--primary);
+            color: white;
+        }
+        
+        .btn-section.active .icon {
+            color: var(--gold-light);
+        }
+        
+        /* ============================================
+           محتوای اصلی
+           ============================================ */
+        main {
+            background: white;
+            border-radius: 24px;
+            padding: 24px 20px;
+            box-shadow: 0 8px 24px rgba(0,0,0,0.04);
+            display: none;
+            animation: fadeUp 0.35s ease;
+        }
+        
+        main.open {
+            display: block;
+        }
+        
+        @keyframes fadeUp {
+            0% { opacity: 0; transform: translateY(14px); }
+            100% { opacity: 1; transform: translateY(0); }
+        }
+        
+        main h2 {
+            font-size: 20px;
+            color: var(--primary);
+            border-right: 5px solid var(--gold);
+            padding-right: 12px;
+            margin-bottom: 16px;
+        }
+        
+        main h3 {
+            font-size: 16px;
+            color: var(--primary-light);
+            margin: 18px 0 8px;
+        }
+        
+        main p,
+        main li {
+            font-size: 15px;
+            line-height: 1.9;
+            color: var(--text);
+        }
+        
+        main ul {
+            padding-right: 22px;
+            margin: 8px 0 12px;
+        }
+        
+        /* ============================================
+           جعبه نکته طلایی
+           ============================================ */
+        .example-box {
+            background: #f1f5f9;
+            padding: 12px 16px;
+            border-radius: 14px;
+            margin: 10px 0;
+            border-right: 4px solid var(--gold);
+        }
+        
+        .example-box strong {
+            color: var(--primary);
+        }
+        
+        /* ============================================
+           تست‌ها
+           ============================================ */
+        .test-item {
+            background: #fafbfc;
+            border: 1px solid #e9edf2;
+            border-radius: 14px;
+            padding: 14px 16px;
+            margin: 12px 0;
+        }
+        
+        .test-item .q {
+            font-weight: 600;
+            font-size: 15px;
+        }
+        
+        .test-item .options {
+            margin: 6px 0 4px 0;
+            font-size: 14px;
+            color: var(--text);
+        }
+        
+        /* ============================================
+           دکمه بازگشت
+           ============================================ */
+        .back-btn {
+            background: var(--primary);
+            color: white;
+            border: none;
+            padding: 10px 20px;
+            border-radius: 10px;
+            font-size: 14px;
+            cursor: pointer;
+            margin-bottom: 20px;
+            transition: 0.3s;
+            display: inline-flex;
+            align-items: center;
+            gap: 8px;
+            font-family: inherit;
+        }
+        
+        .back-btn:hover {
+            background: var(--primary-dark);
+            transform: translateY(-2px);
+        }
+        
+        .back-btn:focus-visible {
+            outline: 3px solid var(--gold);
+            outline-offset: 2px;
+        }
+        
+        .back-btn:active {
+            transform: scale(0.95);
+        }
+        
+        /* ============================================
+           دکمه نمایش پاسخ
+           ============================================ */
+        .btn-answer {
+            background: var(--primary);
+            color: white;
+            border: none;
+            border-radius: 10px;
+            padding: 8px 18px;
+            font-size: 13px;
+            font-weight: 500;
+            cursor: pointer;
+            margin-top: 10px;
+            transition: 0.2s ease;
+            font-family: inherit;
+        }
+        
+        .btn-answer:hover {
+            background: var(--primary-dark);
+        }
+        
+        .btn-answer:focus-visible {
+            outline: 3px solid var(--gold);
+            outline-offset: 2px;
+        }
+        
+        .answer-box {
+            background: #e6f0fa;
+            padding: 12px 16px;
+            border-radius: 12px;
+            margin-top: 12px;
+            font-size: 14px;
+            border-right: 3px solid var(--primary-light);
+            display: none;
+            animation: fadeUp 0.3s ease;
+        }
+        
+        .answer-box.open {
+            display: block;
+        }
+        
+        .answer-box strong {
+            color: var(--primary);
+        }
+        
+        .tag {
+            display: inline-block;
+            background: #dce4ed;
+            font-size: 11px;
+            padding: 2px 10px;
+            border-radius: 30px;
+            color: var(--primary-light);
+            margin-bottom: 6px;
+        }
+        
+        /* ============================================
+           فوتر
+           ============================================ */
+        footer {
+            text-align: center;
+            font-size: 12px;
+            color: #94a3b8;
+            margin-top: 30px;
+            border-top: 1px solid #e2e8f0;
+            padding-top: 20px;
+        }
+        
+        .brand {
+            font-size: 0.75rem;
+            font-weight: 300;
+            color: #94a3b8;
+            letter-spacing: 1px;
+        }
+        
+        /* ============================================
+           موبایل
+           ============================================ */
+        @media (max-width: 500px) {
+            nav {
+                grid-template-columns: repeat(3, 1fr);
+                gap: 8px;
+            }
+            .btn-section {
+                font-size: 11px;
+                padding: 12px 4px;
+            }
+            .btn-section .icon {
+                font-size: 22px;
+            }
+            .back-btn {
+                width: 100%;
+                justify-content: center;
+                padding: 12px;
+            }
+            header h1 {
+                font-size: 20px;
+            }
+        }
+        
+        /* ============================================
+           Skeleton Screen (برای بهبود UX)
+           ============================================ */
+        .skeleton-loader {
+            animation: pulse 1.5s infinite;
+        }
+        
+        .skeleton-line {
+            height: 20px;
+            background: #e0e0e0;
+            border-radius: 8px;
+            margin: 8px 0;
+        }
+        
+        .skeleton-line.short { width: 60%; }
+        .skeleton-line.medium { width: 80%; }
+        
+        @keyframes pulse {
+            0% { opacity: 0.6; }
+            50% { opacity: 1; }
+            100% { opacity: 0.6; }
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        
+        <!-- ============================================
+             هدر (Header)
+             ============================================ -->
+        <header role="banner">
+            <h1>📘 گرامر جامع کنکور</h1>
+            <p>۵ سال اخیر · ۹ مبحث · ۹۰ تست تشریحی</p>
+            <span class="badge">✨ Mr.Lee</span>
+        </header>
+        
+        <!-- ============================================
+             ناوبری (Navigation)
+             ============================================ -->
+        <nav role="navigation" aria-label="ناوبری اصلی">
+            <!-- دکمه‌ها توسط جاوااسکریپت ساخته می‌شوند -->
+        </nav>
+        
+        <!-- ============================================
+             محتوای اصلی (Main Content)
+             ============================================ -->
+        <main role="main" aria-label="محتوای آموزشی">
+            <!-- محتوا توسط جاوااسکریپت بارگذاری می‌شود -->
+        </main>
+        
+        <!-- ============================================
+             فوتر (Footer)
+             ============================================ -->
+        <footer role="contentinfo">
+            <span class="brand">Mr.Lee</span>
+            <span style="color: #94a3b8; font-size: 0.7rem; font-weight: 300; margin: 0 6px;">•</span>
+            <span style="color: #94a3b8; font-size: 0.7rem; font-weight: 300;">گرامر جامع کنکور</span>
+        </footer>
+    </div>
+    
+    <script>
+        // ============================================
+        // داده‌های کامل: ۹ مبحث، ۹۰ تست
+        // ============================================
+        const data = [
+            {
+                id: "tenses",
+                icon: "⏰",
+                label: "زمان‌ها",
+                title: "زمان‌ها (Tenses)",
+                lesson: `
+                    <p>زمان‌ها ستون اصلی گرامر انگلیسی‌اند. در کنکور، این ۶ زمان بیشترین کاربرد را دارند:</p>
+                    <ul>
+                        <li><strong>Simple Present:</strong> عادات، حقایق علمی، برنامه‌های ثابت. <br>مثال: <em>The sun rises in the east.</em></li>
+                        <li><strong>Present Continuous:</strong> کار در حال انجام الان، برنامه‌های نزدیک. <br>مثال: <em>I am meeting Mark this afternoon.</em></li>
+                        <li><strong>Simple Past:</strong> کار تمام‌شده در گذشته. <br>مثال: <em>She attended the rally.</em></li>
+                        <li><strong>Past Continuous:</strong> کار در حال انجام در گذشته. <br>مثال: <em>I was watching TV when he called.</em></li>
+                        <li><strong>Present Perfect:</strong> تجربه، کار تمام‌شده با تاثیر حال، از گذشته تا حال. <br>مثال: <em>I have gained a lot of experience.</em></li>
+                        <li><strong>Future:</strong> will / going to / Present Continuous برای آینده.</li>
+                    </ul>
+                    <div class="example-box">
+                        <strong>💡 نکته طلایی:</strong> در تست‌ها، به <strong>قید زمان</strong> (now, yesterday, since, for, ...) و <strong>توالی وقایع</strong> دقت کنید.
+                    </div>
+                `,
+                tests: [
+                    { year: "۱۴۰۴ نوبت اول", q: "The president will travel to the Hawaiian island .................... Monday to meet the mayor.", opts: "1) as  2) in  3) at  4) on", ans: "✅ گزینه ۴: on — برای روزهای هفته از <strong>on</strong> استفاده می‌شود.<br>❌ گزینه ۱ (as) برای نقش/مقایسه به کار می‌رود.<br>❌ گزینه ۲ (in) برای ماه‌ها/سال‌ها.<br>❌ گزینه ۳ (at) برای ساعت دقیق." },
+                    { year: "۱۴۰۴ نوبت اول", q: "I ................... Mark this afternoon, and you haven't seen him for weeks. Why don't you come along?", opts: "1) meet  2) will have met  3) gonna meet  4) am meeting", ans: "✅ گزینه ۴: am meeting — برنامه‌ریزی شده برای آینده‌ای نزدیک با Present Continuous.<br>❌ گزینه ۱ (meet) حال ساده برای برنامه ثابت.<br>❌ گزینه ۲ (will have met) Future Perfect برای عملی که تا زمان خاصی در آینده تمام می‌شود.<br>❌ گزینه ۳ (gonna meet) غیررسمی و برای کنکور مناسب نیست." },
+                    { year: "۱۴۰۳ نوبت دوم", q: "Justice Jackson said in an interview published on Tuesday that she .................... the Jan. 5, 2022 rally in Berlin.", opts: "1) attending  2) will attend  3) would attended  4) attended", ans: "✅ گزینه ۴: attended — زمان گذشته ساده برای رویداد تمام‌شده در گذشته با تاریخ مشخص.<br>❌ گزینه ۱ (attending) بدون فعل کمکی.<br>❌ گزینه ۲ (will attend) آینده، اما تاریخ ۲۰۲۲ گذشته است.<br>❌ گزینه ۳ (would attended) would + past participle اشتباه است." },
+                    { year: "۱۴۰۱", q: "My sister is watching several episodes of her favorite comedy in a row. She .................... them all afternoon without a break.", opts: "1) watches  2) used to watch  3) is watching  4) has been watching", ans: "✅ گزینه ۴: has been watching — عملی که از گذشته شروع شده و تا حال ادامه دارد و هنوز تمام نشده.<br>❌ گزینه ۱ (watches) حال ساده برای عادت.<br>❌ گزینه ۲ (used to watch) عادت در گذشته که تمام شده.<br>❌ گزینه ۳ (is watching) در حال انجام الان، اما all afternoon نشان‌دهنده مدت زمان است." },
+                    { year: "۱۴۰۱", q: "While Mary was in the library doing research, she .................... a book which contained letters the author had written to his son.", opts: "1) found  2) had found  3) had been finding  4) was finding", ans: "✅ گزینه ۱: found — یک عمل لحظه‌ای در گذشته که در حین عمل دیگر (was doing research) رخ داده.<br>❌ گزینه ۲ (had found) قبل از عمل دیگر در گذشته، اما او در حال انجام کار بوده.<br>❌ گزینه ۳ (had been finding) استمراری در گذشته دور.<br>❌ گزینه ۴ (was finding) استمراری، اما پیدا کردن لحظه‌ای است." },
+                    { year: "۱۴۰۰", q: "We had the volume turned down, so I couldn't make out what the characters in the film .................... about.", opts: "1) would be talking  2) had talked  3) have talked about  4) were talking", ans: "✅ گزینه ۴: were talking — Past Continuous برای عملی که در حال انجام در گذشته بوده و ما نشنیدیم.<br>❌ گزینه ۱ (would be talking) آینده در گذشته.<br>❌ گزینه ۲ (had talked) گذشته کامل، قبل از عمل دیگر.<br>❌ گزینه ۳ (have talked) Present Perfect، مربوط به حال است." },
+                    { year: "۱۴۰۰", q: ".................. for my mother living with me, I think I'd be quite lonely.", opts: "1) Were it not  2) If there was not  3) Whether or not it was  4) Not being", ans: "✅ گزینه ۱: Were it not — شرطی نوع دوم با وارونه‌سازی (حذف if).<br>❌ گزینه ۲ (If there was not) صحیح نیست چون در شرطی نوع دوم از were استفاده می‌شود.<br>❌ گزینه ۳ (Whether or not) برای نشان دادن عدم اهمیت.<br>❌ گزینه ۴ (Not being) ساختار ناقص." },
+                    { year: "۱۴۰۳ نوبت اول", q: "What made him a great diplomat was that he could quote Cervantes's words about honesty even as he knew no one in the Hall believed in it, including himself.", opts: "1) such  2) so  3) too  4) very", ans: "✅ گزینه ۲: so — بعد از 'as he knew no one' به معنی 'به‌طوری که' از so استفاده می‌شود.<br>❌ گزینه ۱ (such) قبل از اسم می‌آید.<br>❌ گزینه ۳ (too) به معنی 'بیش از حد'.<br>❌ گزینه ۴ (very) قبل از صفت می‌آید." },
+                    { year: "۱۴۰۲ نوبت اول", q: "Although they don't need to be in absolutely tip-top shape, a reasonable level of fitness ................... to get the most from this course.", opts: "1) required for you  2) requires you  3) is required if you want  4) requirement is needed, in order", ans: "✅ گزینه ۳: is required if you want — ساختار مجهول + شرط.<br>❌ گزینه ۱ (required for you) ناقص.<br>❌ گزینه ۲ (requires you) فاعل 'a reasonable level' مفرد است اما requires you معنی نمی‌دهد.<br>❌ گزینه ۴ (requirement is needed) اضافه‌گویی." },
+                    { year: "۱۴۰۲ نوبت اول", q: "I ................... Mark this afternoon, and you haven't seen him for weeks. Why don't you come along?", opts: "1) meet  2) will have met  3) gonna meet  4) am meeting", ans: "✅ گزینه ۴: am meeting — برنامه‌ریزی شده برای آینده‌ای نزدیک.<br>❌ گزینه ۱ (meet) حال ساده.<br>❌ گزینه ۲ (will have met) Future Perfect.<br>❌ گزینه ۳ (gonna meet) غیررسمی." },
+                    { year: "۱۴۰۲ نوبت دوم", q: "London is a very old city; some of its buildings, ..................., are very modern.", opts: "1) however  2) although  3) whereas  4) furthermore", ans: "✅ گزینه ۱: however — نشان‌دهنده تضاد بین قدیمی بودن شهر و مدرن بودن بعضی ساختمان‌ها.<br>❌ گزینه ۲ (although) باید جمله کامل بعدش بیاید.<br>❌ گزینه ۳ (whereas) برای مقایسه دو چیز.<br>❌ گزینه ۴ (furthermore) برای اضافه کردن مطلب." },
+                    { year: "۱۴۰۲ نوبت دوم", q: "At first, he was reluctant, as he has always been a very private person, despite ................... in the public eye.", opts: "1) he used to be  2) being used to be  3) his used to being  4) being used to being", ans: "✅ گزینه ۴: being used to being — بعد از despite + gerund ('being') و 'used to' + gerund ('being').<br>❌ گزینه ۱ (he used to be) جمله کامل، اما بعد از despite باید gerund بیاید.<br>❌ گزینه ۲ (being used to be) ترکیب نادرست.<br>❌ گزینه ۳ (his used to being) مالکیت اضافی." },
+                    { year: "۱۴۰۲ نوبت دوم", q: "Google announced this week that it was launching an AI called Bard that will be integrated into its search engine .................... .", opts: "1) testing its after phase  2) after a testing phase  3) testing its phase after  4) after a phase is testing", ans: "✅ گزینه ۲: after a testing phase — ترتیب صحیح کلمات.<br>❌ گزینه ۱ (testing its after phase) ترتیب غلط.<br>❌ گزینه ۳ (testing its phase after) ترتیب غلط.<br>❌ گزینه ۴ (after a phase is testing) زمان اشتباه." },
+                    { year: "۱۴۰۲ نوبت دوم", q: "No matter how ..................., it might be impossible for our bodies to go on forever.", opts: "1) technologically advanced gets  2) technology gets advance  3) advanced technology gets  4) advance gets technologically", ans: "✅ گزینه ۳: advanced technology gets — 'No matter how + صفت + فاعل + فعل'.<br>❌ گزینه ۱ (technologically advanced gets) ترتیب غلط.<br>❌ گزینه ۲ (technology gets advance) advance صفت نیست.<br>❌ گزینه ۴ (advance gets technologically) ترتیب غلط." },
+                    { year: "۱۴۰۲ نوبت دوم", q: "I wish the agenda ................... at last night's meeting.", opts: "1) wasn’t changed  2) wouldn’t change  3) couldn’t be changed  4) hadn’t been changed", ans: "✅ گزینه ۴: hadn’t been changed — 'wish' برای گذشته + Past Perfect (had + p.p).<br>❌ گزینه ۱ (wasn't changed) برای حال.<br>❌ گزینه ۲ (wouldn't change) برای آینده.<br>❌ گزینه ۳ (couldn't be changed) امکان در گذشته." },
+                    { year: "۱۴۰۲ نوبت دوم", q: "They are first taught the basic procedures for scuba diving, including safety and communication with fellow divers, ................... with the equipment before dipping their toes into the water.", opts: "1) and familiarized  2) who are familiarized  3) while they are familiarizing  4) then familiarize themselves", ans: "✅ گزینه ۴: then familiarize themselves — ترتیب منطقی وقایع.<br>❌ گزینه ۱ (and familiarized) بدون فاعل.<br>❌ گزینه ۲ (who are familiarized) موصولی اضافی.<br>❌ گزینه ۳ (while they are familiarizing) زمان حال، اما باید آینده باشد." },
+                    { year: "۱۴۰۲ نوبت دوم", q: "It was an artificial ecosystem of animals and crops, ................... large, uniform layout made western farms more efficient than the more- irregular farms in the East.", opts: "1) their  2) whose  3) as  4) which their", ans: "✅ گزینه ۲: whose — برای نشان دادن مالکیت 'layout' مربوط به 'ecosystem'.<br>❌ گزینه ۱ (their) ضمیر فاعلی.<br>❌ گزینه ۳ (as) به معنی 'به‌عنوان'.<br>❌ گزینه ۴ (which their) ترکیب نادرست." },
+                    { year: "۱۴۰۲ نوبت دوم", q: "When I was in Tehran, I spent ...................., and I didn't even begin to see all of it.", opts: "1) a day to explore  2) an exploration day to  3) a day exploring  4) a day of exploration by", ans: "✅ گزینه ۳: a day exploring — spend + زمان + gerund ('exploring').<br>❌ گزینه ۱ (a day to explore) بعد از spend نمی‌آید.<br>❌ گزینه ۲ (an exploration day to) ترتیب نادرست.<br>❌ گزینه ۴ (a day of exploration by) اضافه." },
+                    { year: "۱۴۰۲ نوبت دوم", q: "One of the secrets of remaining in ................... choose a diet that is high in fiber and low in fat.", opts: "1) healthy is  2) healthy is to  3) good health is  4) good health is to", ans: "✅ گزینه ۴: good health is to — 'one of the secrets of remaining in good health is to choose' یعنی یکی از رازهای سالم ماندن انتخاب کردن است.<br>❌ گزینه ۱ (healthy is) 'healthy' صفت است.<br>❌ گزینه ۲ (healthy is to) صفت.<br>❌ گزینه ۳ (good health is) بدون 'to' ناقص." },
+                    { year: "۱۴۰۲ نوبت دوم", q: "The scenery was wonderful. The costumes were marvelous. The cast were incredible. I wish ................... say the same about the script.", opts: "1) to  2) I could  3) I can  4) that I", ans: "✅ گزینه ۲: I could — 'I wish I could' آرزویی که در حال امکان‌پذیر نیست.<br>❌ گزینه ۱ (to) ناقص.<br>❌ گزینه ۳ (I can) نشان‌دهنده توانایی است نه آرزو.<br>❌ گزینه ۴ (that I) ناقص." },
+                    { year: "۱۴۰۲ نوبت دوم", q: "It has been said that Chinese papermakers were among the ................... near Samarqand.", opts: "1) prisoners who fought and captured in battle  2) prisoners fighting and captured in a battle  3) prisoners captured in a battle fought  4) captured prisoners in battle fight", ans: "✅ گزینه ۳: prisoners captured in a battle fought — 'prisoners who were captured in a battle that was fought near Samarqand' به شکل خلاصه.<br>❌ گزینه ۱ (who fought and captured) زمان اشتباه.<br>❌ گزینه ۲ (fighting and captured) ترکیب نادرست.<br>❌ گزینه ۴ (captured prisoners in battle fight) بدون ربط." },
+                    { year: "۱۴۰۲ نوبت دوم", q: "Parents are welcome to watch as their children learn to scuba dive and enjoy ................... underwater.", opts: "1) to make bubbles in  2) making bubbles  3) bubbles that are in  4) bubbles to be", ans: "✅ گزینه ۲: making bubbles — بعد از enjoy + gerund.<br>❌ گزینه ۱ (to make bubbles in) to + مصدر.<br>❌ گزینه ۳ (bubbles that are in) جمله وصفی اضافی.<br>❌ گزینه ۴ (bubbles to be) ناقص." },
+                    { year: "۱۴۰۲ نوبت دوم", q: "To better understand how people form their identities online, researchers combed through 2.5 million selfie posts to determine what kinds of identity statements ................... and sharing the photos.", opts: "1) do people make by taking  2) do people make to take  3) people make by taking  4) people make to take", ans: "✅ گزینه ۳: people make by taking — 'what kinds of identity statements people make by taking and sharing the photos' (ساختار خبری نه سوالی).<br>❌ گزینه ۱ (do people make) سوالی.<br>❌ گزینه ۲ (do people make to take) سوالی.<br>❌ گزینه ۴ (people make to take) 'by' صحیح‌تر است." }
+                ]
+            },
+            {
+                id: "conditionals",
+                icon: "🔀",
+                label: "شرطی‌ها",
+                title: "شرطی‌ها (Conditionals)",
+                lesson: `
+                    <p>شرطی‌ها ۴ نوع اصلی دارند. در کنکور، نوع دوم و سوم بیشترین تکرار را دارند:</p>
+                    <ul>
+                        <li><strong>Type 0:</strong> حقایق علمی — <em>If you heat water, it boils.</em></li>
+                        <li><strong>Type 1:</strong> احتمال وقوع در آینده — <em>If it rains, I will stay home.</em></li>
+                        <li><strong>Type 2:</strong> خلاف واقع در حال — <em>If I were rich, I would travel.</em></li>
+                        <li><strong>Type 3:</strong> خلاف واقع در گذشته — <em>If I had known, I would have come.</em></li>
+                    </ul>
+                    <div class="example-box">
+                        <strong>💡 نکته طلایی:</strong> در شرطی نوع دوم، همیشه از <strong>were</strong> برای همه اشخاص استفاده می‌شود. در نوع سوم، had + p.p و would have + p.p.
+                    </div>
+                `,
+                tests: [
+                    { year: "۱۴۰۳ نوبت دوم", q: "If I were to propose love as the law of Zimbabwe, those critics .................... something wrong with it.", opts: "1) have found  2) will find  3) would find  4) find", ans: "✅ گزینه ۳: would find — شرطی نوع دوم (خلاف واقع در حال).<br>❌ گزینه ۱ (have found) زمان حال کامل.<br>❌ گزینه ۲ (will find) شرطی نوع اول.<br>❌ گزینه ۴ (find) حال ساده." },
+                    { year: "۱۴۰۱", q: "I was lucky my noisy guests finally quieted down. Otherwise, the neighbors .................... the police.", opts: "1) had called  2) had to call  3) would call  4) would have called", ans: "✅ گزینه ۴: would have called — شرطی نوع سوم (خلاف واقع در گذشته) با Otherwise (در غیر این صورت).<br>❌ گزینه ۱ (had called) گذشته کامل بدون would.<br>❌ گزینه ۲ (had to call) مجبور بودند در گذشته.<br>❌ گزینه ۳ (would call) شرطی نوع دوم." },
+                    { year: "۱۴۰۳ نوبت اول", q: "Had I realized what you wanted to do in that important meeting, I ....................", opts: "1) wouldn't agree  2) have not agreed  3) shouldn't agree  4) wouldn't have agreed", ans: "✅ گزینه ۴: wouldn't have agreed — شرطی نوع سوم با حذف if و وارونه‌سازی.<br>❌ گزینه ۱ (wouldn't agree) شرطی نوع دوم.<br>❌ گزینه ۲ (have not agreed) بدون would.<br>❌ گزینه ۳ (shouldn't agree) باید/نباید." },
+                    { year: "۱۴۰۰", q: ".................... for my mother living with me, I think I'd be quite lonely.", opts: "1) Were it not  2) If there was not  3) Whether or not it was  4) Not being", ans: "✅ گزینه ۱: Were it not — شرطی نوع دوم با وارونه‌سازی (حذف if).<br>❌ گزینه ۲ (If there was not) در شرطی نوع دوم were صحیح است نه was.<br>❌ گزینه ۳ (Whether or not) عدم اهمیت.<br>❌ گزینه ۴ (Not being) ناقص." },
+                    { year: "۱۴۰۱", q: "Whatever happened that day was our secret. We didn't even tell our parents what ....................", opts: "1) we do  2) did we do  3) we had done  4) had we done", ans: "✅ گزینه ۳: we had done — Past Perfect برای عملی که قبل از گذشته دیگر (didn't tell) رخ داده.<br>❌ گزینه ۱ (we do) حال.<br>❌ گزینه ۲ (did we do) سوالی.<br>❌ گزینه ۴ (had we done) سوالی." },
+                    { year: "۱۴۰۳ نوبت اول", q: "If you intend to travel, please don't forget .................... ahead of time.", opts: "1) to have booked  2) booking  3) to book  4) book", ans: "✅ گزینه ۳: to book — بعد از forget در معنای آینده، infinitive می‌آید.<br>❌ گزینه ۱ (to have booked) Past Infinitive.<br>❌ گزینه ۲ (booking) Gerund، معنی آن فراموش کردن کاری که انجام داده‌اید.<br>❌ گزینه ۴ (book) بدون to." },
+                    { year: "۱۴۰۳ نوبت دوم", q: "If I were to propose love as the law of Zimbabwe, those critics .................... something wrong with it.", opts: "1) have found  2) will find  3) would find  4) find", ans: "✅ گزینه ۳: would find — شرطی نوع دوم.<br>❌ گزینه ۱ (have found) حال کامل.<br>❌ گزینه ۲ (will find) نوع اول.<br>❌ گزینه ۴ (find) حال ساده." },
+                    { year: "۱۴۰۴ نوبت اول", q: "Had I realized what you wanted to do in that important meeting, I ....................", opts: "1) wouldn't agree  2) have not agreed  3) shouldn't agree  4) wouldn't have agreed", ans: "✅ گزینه ۴: wouldn't have agreed — شرطی نوع سوم با وارونه‌سازی." },
+                    { year: "۱۴۰۳ نوبت دوم", q: "I think that he .................... through something pretty nasty to have produced a play that bleeds with so much private emotion.", opts: "1) must go  2) should have gone  3) must have gone  4) will be gone", ans: "✅ گزینه ۳: must have gone — نتیجه‌گیری منطقی درباره گذشته ('حتماً رفته است').<br>❌ گزینه ۱ (must go) نتیجه‌گیری درباره حال.<br>❌ گزینه ۲ (should have gone) باید می‌رفت.<br>❌ گزینه ۴ (will be gone) آینده." },
+                    { year: "۱۴۰۳ نوبت دوم", q: "My first patient was a schizophrenic. After working with him, I wanted to understand how ....................", opts: "1) this terrible disease developed  2) did this terrible disease develop  3) this terrible disease's development  4) about this terrible disease's development", ans: "✅ گزینه ۱: this terrible disease developed — 'how' + جمله خبری (not سوالی).<br>❌ گزینه ۲ (did ... develop) سوالی.<br>❌ گزینه ۳ (disease's development) اسمی.<br>❌ گزینه ۴ (about ... development) اضافه." },
+                    { year: "۱۴۰۳ نوبت دوم", q: "The famous psychiatrist advised that the depressed actress .................... to a rest home.", opts: "1) admitted  2) is admitted  3) to be admitted  4) be admitted", ans: "✅ گزینه ۴: be admitted — بعد از advise + that + (should) + be + p.p (مجـهول با should حذف‌شده).<br>❌ گزینه ۱ (admitted) زمان گذشته.<br>❌ گزینه ۲ (is admitted) حال ساده.<br>❌ گزینه ۳ (to be admitted) مصدر." },
+                    { year: "۱۴۰۳ نوبت دوم", q: ".................... the concepts of whiteness and maleness from the concept of power can we see the damage the association has done.", opts: "1) When we disentangle  2) Only when we disentangle  3) Not only to disentangle  4) Not while was disentangled", ans: "✅ گزینه ۲: Only when we disentangle — 'Only when' + وارونه‌سازی ('can we see').<br>❌ گزینه ۱ (When we disentangle) بدون وارونه‌سازی.<br>❌ گزینه ۳ (Not only to disentangle) ناقص.<br>❌ گزینه ۴ (Not while was disentangled) زمان اشتباه." },
+                    { year: "۱۴۰۳ نوبت اول", q: "Had I realized what you wanted to do in that important meeting, I ....................", opts: "1) wouldn't agree  2) have not agreed  3) shouldn't agree  4) wouldn't have agreed", ans: "✅ گزینه ۴: wouldn't have agreed — شرطی نوع سوم با وارونه‌سازی." },
+                    { year: "۱۴۰۳ نوبت اول", q: "If the blood was still fresh, that meant this murder .................... taken place long ago.", opts: "1) would not  2) shouldn't have  3) ought not  4) mustn't have", ans: "✅ گزینه ۴: mustn't have — نتیجه‌گیری منطقی منفی درباره گذشته ('نباید رخ داده باشد').<br>❌ گزینه ۱ (would not) شرطی.<br>❌ گزینه ۲ (shouldn't have) نباید می‌شد.<br>❌ گزینه ۳ (ought not) بدون have." }
+                ]
+            },
+            {
+                id: "passive",
+                icon: "🔄",
+                label: "مجهول",
+                title: "مجهول (Passive Voice)",
+                lesson: `
+                    <p>در ساختار مجهول، <strong>فاعل</strong> کار را انجام نمی‌دهد، بلکه <strong>مفعول</strong> در جایگاه فاعل می‌نشیند.</p>
+                    <ul>
+                        <li><strong>ساختار:</strong> <em>Object + be (در زمان مناسب) + p.p + (by ...)</em></li>
+                        <li><strong>مثال:</strong> <em>This approach was utilized in the study.</em></li>
+                        <li><strong>مجهول در زمان‌ها:</strong> <br>
+                            Simple Present: <em>is/am/are + p.p</em> <br>
+                            Simple Past: <em>was/were + p.p</em> <br>
+                            Present Perfect: <em>have/has been + p.p</em> <br>
+                            Future: <em>will be + p.p</em>
+                        </li>
+                    </ul>
+                    <div class="example-box">
+                        <strong>💡 نکته طلایی:</strong> اگر فعل جمله <strong>متعدی</strong> (transitive) باشد، می‌توان آن را به مجهول برد.
+                    </div>
+                `,
+                tests: [
+                    { year: "۱۴۰۳ نوبت دوم", q: "In this study, the new approach of content analysis .................... to identify the factors that influence process safety culture.", opts: "1) utilizing  2) was utilized  3) utilized  4) that utilizing", ans: "✅ گزینه ۲: was utilized — مجهول در زمان گذشته ساده.<br>❌ گزینه ۱ (utilizing) وجه وصفی فعال.<br>❌ گزینه ۳ (utilized) بدون فعل کمکی.<br>❌ گزینه ۴ (that utilizing) ناقص." },
+                    { year: "۱۴۰۱", q: "Two different types of boats have been developed by the Eskimos, .................... to meet specific needs.", opts: "1) both constructing  2) each constructed  3) which is constructed  4) who construct", ans: "✅ گزینه ۲: each constructed — ساختار مجهول با وجه وصفی (past participle).<br>❌ گزینه ۱ (both constructing) فعال.<br>❌ گزینه ۳ (which is constructed) موصولی با is.<br>❌ گزینه ۴ (who construct) برای افراد." },
+                    { year: "۱۴۰۰", q: "Persuading staff to accept new patterns of work is a challenge .................... by many companies that want to develop.", opts: "1) has been faced  2) which faced  3) it is faced  4) faced", ans: "✅ گزینه ۴: faced — وجه وصفی مجهول (past participle) به نقش صفت.<br>❌ گزینه ۱ (has been faced) زمان حال کامل.<br>❌ گزینه ۲ (which faced) موصولی با زمان گذشته.<br>❌ گزینه ۳ (it is faced) جمله کامل." },
+                    { year: "۱۴۰۴ نوبت اول", q: "The idea of this approach is to use different levels of modeling, .................... to study phenomena at a certain length scale.", opts: "1) each designed  2) both designing  3) which designed  4) that designing", ans: "✅ گزینه ۱: each designed — ساختار با Past Participle (مجهول).<br>❌ گزینه ۲ (both designing) فعال.<br>❌ گزینه ۳ (which designed) زمان گذشته.<br>❌ گزینه ۴ (that designing) ناقص." },
+                    { year: "۱۴۰۲ نوبت اول", q: "Printing is the generic term for a number of processes, .................... woodcut and engraving are two prime examples.", opts: "1) whereby  2) of which  3) which  4) so as", ans: "✅ گزینه ۲: of which — موصولی با حرف اضافه ('processes of which woodcut and engraving are two prime examples').<br>❌ گزینه ۱ (whereby) به وسیله آن.<br>❌ گزینه ۳ (which) بدون حرف اضافه.<br>❌ گزینه ۴ (so as) برای هدف." },
+                    { year: "۱۴۰۳ نوبت دوم", q: "Almost four in ten managers avoid .................... college graduates because they judge them to be unprepared for professional life.", opts: "1) hiring  2) to hire  3) hire  4) to be hired", ans: "✅ گزینه ۱: hiring — بعد از avoid، gerund می‌آید.<br>❌ گزینه ۲ (to hire) مصدر.<br>❌ گزینه ۳ (hire) بدون to.<br>❌ گزینه ۴ (to be hired) مجهول." },
+                    { year: "۱۴۰۳ نوبت دوم", q: "It is a crime to produce a fake document for the purpose of facilitating the illegal entry of another person in a country .................... he is neither a national nor a permanent resident.", opts: "1) of that  2) that which  3) of which  4) that in", ans: "✅ گزینه ۳: of which — 'a country of which he is neither a national nor a permanent resident' (کشوری که او نه شهروند است و نه مقیم).<br>❌ گزینه ۱ (of that) بعد از حرف اضافه that نمی‌آید.<br>❌ گزینه ۲ (that which) نادرست.<br>❌ گزینه ۴ (that in) حرف اضافه اشتباه." },
+                    { year: "۱۴۰۳ نوبت دوم", q: "The farm land around the village gets flooded, ruining the crops, leaving people with hardly any food, ....................", opts: "1) and then later dries out  2) then to dry out  3) it later dried out  4) which it dries out later", ans: "✅ گزینه ۱: and then later dries out — ادامه منطقی جمله.<br>❌ گزینه ۲ (then to dry out) مصدر.<br>❌ گزینه ۳ (it later dried out) فاعل اضافی.<br>❌ گزینه ۴ (which it dries out) which + it اضافی." },
+                    { year: "۱۴۰۳ نوبت دوم", q: "After being arrested, most juveniles are released to their parents, .................... charged with serious crimes.", opts: "1) but being  2) unless they are  3) contrary to those are  4) except being", ans: "✅ گزینه ۲: unless they are — 'unless they are charged' (مگر اینکه متهم شوند).<br>❌ گزینه ۱ (but being) ناقص.<br>❌ گزینه ۳ (contrary to those are) نادرست.<br>❌ گزینه ۴ (except being) ناقص." },
+                    { year: "۱۴۰۴ نوبت اول", q: "The technology of neuroscience is .................... to genetically engineer insect brains.", opts: "1) enough advanced  2) advanced enough  3) such advanced that  4) advanced such that", ans: "✅ گزینه ۲: advanced enough — 'صفت + enough + to' (به اندازه کافی پیشرفته برای مهندسی).<br>❌ گزینه ۱ (enough advanced) ترتیب غلط.<br>❌ گزینه ۳ (such advanced that) such قبل از اسم.<br>❌ گزینه ۴ (advanced such that) نادرست." },
+                    { year: "۱۴۰۴ نوبت اول", q: "Richard Hamilton, an inventive mathematician .................... helped advance understanding of the fundamental nature of three-dimensional space, died on Sept. 29 in Manhattan.", opts: "1) who devised the Ricci flow which was an equation  2) devised the Ricci flow that was an equation which  3) who devised the Ricci flow, an equation that  4) devised the Ricci flow, an equation which", ans: "✅ گزینه ۳: who devised the Ricci flow, an equation that — 'who' برای معرفی Hamilton + توضیح Ricci flow.<br>❌ گزینه ۱ (who devised ... which was) جمله طولانی.<br>❌ گزینه ۲ (devised ... that was ... which) بدون who.<br>❌ گزینه ۴ (devised ... which) بدون who." }
+                ]
+            },
+            {
+                id: "phrasal",
+                icon: "🔗",
+                label: "افعال مرکب",
+                title: "افعال مرکب (Phrasal Verbs)",
+                lesson: `
+                    <p>افعال مرکب ترکیب <strong>فعل + حرف اضافه/قید</strong> هستند. معنی آنها اغلب با خود فعل متفاوت است.</p>
+                    <ul>
+                        <li><strong>look up:</strong> معنی کردن، جستجو کردن. <br>مثال: <em>I look it up in a dictionary.</em></li>
+                        <li><strong>give up:</strong> تسلیم شدن، دست کشیدن. <br>مثال: <em>Once you start, it's hard to give up.</em></li>
+                        <li><strong>make up:</strong> ساختن، جبران کردن. <br>مثال: <em>I just made up a story.</em></li>
+                        <li><strong>turn up:</strong> پیدا شدن، ظاهر شدن.</li>
+                        <li><strong>track down:</strong> پیدا کردن (با جستجو).</li>
+                    </ul>
+                    <div class="example-box">
+                        <strong>💡 نکته طلایی:</strong> در این تست‌ها، به حرف اضافه بعد از فعل دقت کنید. معنی را از کل جمله حدس بزنید.
+                    </div>
+                `,
+                tests: [
+                    { year: "۱۴۰۴ نوبت اول", q: "Whenever I cannot understand the meaning of a word, I look it .................... in a dictionary.", opts: "1) down  2) after  3) for  4) up", ans: "✅ گزینه ۴: up — look up به معنی جستجو کردن / معنی کردن.<br>❌ گزینه ۱ (down) نگاه کردن به پایین.<br>❌ گزینه ۲ (after) مراقبت کردن.<br>❌ گزینه ۳ (for) جستجو کردن برای چیزی." },
+                    { year: "۱۴۰۰", q: "Once you start noticing positive changes in the way you move and hold your body, yoga and Pilates are hard to ....................", opts: "1) figure out  2) give up  3) work out  4) get along with", ans: "✅ گزینه ۲: give up — به معنی دست کشیدن / ترک کردن.<br>❌ گزینه ۱ (figure out) فهمیدن.<br>❌ گزینه ۳ (work out) ورزش کردن / حل کردن.<br>❌ گزینه ۴ (get along with) کنار آمدن با." },
+                    { year: "۱۴۰۳ نوبت اول", q: "There's nothing autobiographical in the book; I just .................... a story.", opts: "1) made out  2) made up  3) made in  4) made off", ans: "✅ گزینه ۲: made up — به معنی ساختن (داستان).<br>❌ گزینه ۱ (made out) تشخیص دادن.<br>❌ گزینه ۳ (made in) ساخته شده در.<br>❌ گزینه ۴ (made off) فرار کردن." },
+                    { year: "۱۴۰۱", q: "After hours of discussion, we had got nowhere, so we all went home. (پیدا کردن کلمه مناسب)", opts: "1) total  2) instant  3) heated  4) well-known", ans: "✅ گزینه ۳: heated — بحث داغ و پرتنش.<br>❌ گزینه ۱ (total) کامل.<br>❌ گزینه ۲ (instant) فوری.<br>❌ گزینه ۴ (well-known) معروف." },
+                    { year: "۱۴۰۱", q: "Conceived as a community which would be safe for children, the city of Redburn was intentionally designed so that the .................... would not require automobiles.", opts: "1) authorities  2) navigators  3) pedestrians  4) residents", ans: "✅ گزینه ۴: residents — ساکنان (معلوم است که ساکنان به ماشین نیاز ندارند).<br>❌ گزینه ۱ (authorities) مقامات.<br>❌ گزینه ۲ (navigators) ناوبران.<br>❌ گزینه ۳ (pedestrians) عابران پیاده (با ماشین ارتباطی ندارند)." },
+                    { year: "۱۴۰۱", q: "The company has decided not to join the growing .................... for dominance in the real estate market.", opts: "1) appointment  2) advertisement  3) competition  4) satisfaction", ans: "✅ گزینه ۳: competition — رقابت برای تسلط بر بازار.<br>❌ گزینه ۱ (appointment) قرار ملاقات.<br>❌ گزینه ۲ (advertisement) تبلیغات.<br>❌ گزینه ۴ (satisfaction) رضایت." },
+                    { year: "۱۴۰۱", q: "You should not immediately .................... your teenage son of doing something when you are not completely sure that he did it.", opts: "1) accuse  2) excuse  3) justify  4) trap", ans: "✅ گزینه ۱: accuse — متهم کردن (accuse someone of something).<br>❌ گزینه ۲ (excuse) معذور داشتن.<br>❌ گزینه ۳ (justify) توجیه کردن.<br>❌ گزینه ۴ (trap) به دام انداختن." },
+                    { year: "۱۴۰۱", q: "When Rod told us he had booked a table at that fancy Restaurant, we were so excited, but it really didn't .................... our expectations.", opts: "1) cling to  2) come up to  3) hold out  4) fail to meet", ans: "✅ گزینه ۲: come up to — برآورده کردن انتظارات (come up to expectations).<br>❌ گزینه ۱ (cling to) چسبیدن به.<br>❌ گزینه ۳ (hold out) دوام آوردن.<br>❌ گزینه ۴ (fail to meet) برآورده نکردن (منفی‌تر از آن چیزی است که جمله می‌خواهد)." },
+                    { year: "۱۴۰۱", q: "The police are sifting through the available data in an effort to find the .................... person.", opts: "1) passive  2) primary  3) identical  4) guilty", ans: "✅ گزینه ۴: guilty — شخص مجرم.<br>❌ گزینه ۱ (passive) منفعل.<br>❌ گزینه ۲ (primary) اولیه.<br>❌ گزینه ۳ (identical) یکسان." },
+                    { year: "۱۴۰۱", q: "Even though the salesperson showed me a product I had never heard of, I bought it because of the good .................... of the manufacturer.", opts: "1) currency  2) promise  3) reputation  4) interference", ans: "✅ گزینه ۳: reputation — شهرت خوب تولیدکننده.<br>❌ گزینه ۱ (currency) ارز.<br>❌ گزینه ۲ (promise) قول.<br>❌ گزینه ۴ (interference) دخالت." }
+                ]
+            },
+            {
+                id: "gerund",
+                icon: "✏️",
+                label: "مصدر و اسم مصدر",
+                title: "مصدر (Infinitive) و اسم مصدر (Gerund)",
+                lesson: `
+                    <p><strong>Gerund:</strong> فعل + ing که به عنوان اسم استفاده می‌شود. <br>
+                    <strong>Infinitive:</strong> to + فعل (مصدر با to).</p>
+                    <ul>
+                        <li><strong>بعد از افعال خاصی gerund می‌آید:</strong> avoid, enjoy, finish, mind, suggest, ...</li>
+                        <li><strong>بعد از افعال خاصی infinitive می‌آید:</strong> want, decide, agree, hope, plan, ...</li>
+                        <li><strong>تفاوت معنی:</strong> <br>
+                            <em>I stopped smoking.</em> (سیگار را ترک کردم) <br>
+                            <em>I stopped to smoke.</em> (ایستادم تا سیگار بکشم)
+                        </li>
+                    </ul>
+                    <div class="example-box">
+                        <strong>💡 نکته طلایی:</strong> فعل <strong>look forward to</strong> همیشه با gerund می‌آید: <em>look forward to spending</em>
+                    </div>
+                `,
+                tests: [
+                    { year: "۱۴۰۴ نوبت اول", q: "New Year holidays are in just a few weeks and I look forward .................... time with family.", opts: "1) that spending  2) to spending  3) to spend  4) for to spend", ans: "✅ گزینه ۲: to spending — look forward to + gerund.<br>❌ گزینه ۱ (that spending) نادرست.<br>❌ گزینه ۳ (to spend) مصدر.<br>❌ گزینه ۴ (for to spend) نادرست." },
+                    { year: "۱۴۰۳ نوبت دوم", q: "Almost four in ten managers avoid .................... college graduates because they judge them to be unprepared for professional life.", opts: "1) hiring  2) to hire  3) hire  4) to be hired", ans: "✅ گزینه ۱: hiring — بعد از avoid، gerund می‌آید.<br>❌ گزینه ۲ (to hire) مصدر.<br>❌ گزینه ۳ (hire) بدون to.<br>❌ گزینه ۴ (to be hired) مجهول." },
+                    { year: "۱۴۰۳ نوبت اول", q: "If you intend to travel, please don't forget .................... ahead of time.", opts: "1) to have booked  2) booking  3) to book  4) book", ans: "✅ گزینه ۳: to book — بعد از forget در معنای آینده، infinitive می‌آید.<br>❌ گزینه ۱ (to have booked) Past Infinitive.<br>❌ گزینه ۲ (booking) Gerund، معنی آن فراموش کردن کاری که انجام داده‌اید.<br>❌ گزینه ۴ (book) بدون to." },
+                    { year: "۱۴۰۴ نوبت اول", q: "Nothing is quite .................... reading a wordbook aloud to a toddler for the 13th time.", opts: "1) most bored in  2) so boring as  3) as bored as  4) as boring than", ans: "✅ گزینه ۲: so boring as — 'so + صفت + as' برای مقایسه.<br>❌ گزینه ۱ (most bored in) 'bored' برای انسان.<br>❌ گزینه ۳ (as bored as) 'bored' برای انسان.<br>❌ گزینه ۴ (as boring than) than با as نمی‌آید." },
+                    { year: "۱۴۰۳ نوبت دوم", q: "I was wearing gloves in that cold night, .................... I quickly lost feeling in my hands and they are still painful now.", opts: "1) In spite of  2) Even though  3) However  4) Despite", ans: "✅ گزینه ۲: Even though — نشان‌دهنده تضاد (با وجود اینکه دستکش پوشیده بودم، احساس را از دست دادم).<br>❌ گزینه ۱ (In spite of) + اسم/gerund.<br>❌ گزینه ۳ (However) + صفت/قید.<br>❌ گزینه ۴ (Despite) + اسم/gerund." },
+                    { year: "۱۴۰۳ نوبت دوم", q: "He bought them books, tutored them and got them .................... essays that would support their applications to the schools.", opts: "1) have written  2) write  3) wrote  4) to write", ans: "✅ گزینه ۴: to write — 'got them to write' (آنها را وادار کرد تا بنویسند).<br>❌ گزینه ۱ (have written) Past Infinitive.<br>❌ گزینه ۲ (write) بدون to.<br>❌ گزینه ۳ (wrote) زمان گذشته." },
+                    { year: "۱۴۰۴ نوبت اول", q: "The approval of the treatment, which is proposed by an international drug maker, gives doctors .................... option for patients suffering from insomnia.", opts: "1) other  2) a few  3) several  4) another", ans: "✅ گزینه ۴: another — یک گزینه دیگر (another + مفرد).<br>❌ گزینه ۱ (other) قبل از اسم جمع یا with.<br>❌ گزینه ۲ (a few) برای جمع.<br>❌ گزینه ۳ (several) برای جمع." },
+                    { year: "۱۴۰۴ نوبت اول", q: "I voted reluctantly for the current CEO .................... my fears for what a new one might do to our company.", opts: "1) as for  2) since  3) because of  4) because", ans: "✅ گزینه ۳: because of — + اسم ('my fears').<br>❌ گزینه ۱ (as for) در مورد.<br>❌ گزینه ۲ (since) + جمله.<br>❌ گزینه ۴ (because) + جمله." },
+                    { year: "۱۴۰۴ نوبت اول", q: "The idea of this approach is to use different levels of modeling, .................... to study phenomena at a certain length scale.", opts: "1) each designed  2) both designing  3) which designed  4) that designing", ans: "✅ گزینه ۱: each designed — ساختار با Past Participle.<br>❌ گزینه ۲ (both designing) فعال.<br>❌ گزینه ۳ (which designed) زمان گذشته.<br>❌ گزینه ۴ (that designing) ناقص." },
+                    { year: "۱۴۰۴ نوبت اول", q: "It is my hope .................... a richer mathematical language for describing the development of relationships can lead to a world where our institutions value the work of creating connection as much as we do.", opts: "1) that by developing  2) that developing  3) in the development of  4) of the development of", ans: "✅ گزینه ۲: that developing — 'my hope that developing ... can lead' (امید من این است که توسعه ... می‌تواند منجر شود).<br>❌ گزینه ۱ (that by developing) by اضافی.<br>❌ گزینه ۳ (in the development of) حرف اضافه.<br>❌ گزینه ۴ (of the development of) حرف اضافه." }
+                ]
+            },
+            {
+                id: "relative",
+                icon: "🌉",
+                label: "موصولی‌ها",
+                title: "موصولی‌ها (Relative Clauses)",
+                lesson: `
+                    <p>موصولی‌ها جمله‌ای هستند که با <strong>who, whom, which, that, whose</strong> شروع می‌شوند و اسم را توصیف می‌کنند.</p>
+                    <ul>
+                        <li><strong>who:</strong> برای افراد (فاعل) <br>مثال: <em>... those who love you.</em></li>
+                        <li><strong>whom:</strong> برای افراد (مفعول) — کمتر استفاده می‌شود.</li>
+                        <li><strong>which:</strong> برای اشیاء و حیوانات. <br>مثال: <em>... the process by which ...</em></li>
+                        <li><strong>that:</strong> برای همه (به جز در موارد خاص).</li>
+                        <li><strong>whose:</strong> برای نشان دادن مالکیت.</li>
+                    </ul>
+                    <div class="example-box">
+                        <strong>💡 نکته طلایی:</strong> بعد از <strong>حرف اضافه</strong> فقط <strong>whom</strong> و <strong>which</strong> می‌آیند، نه that.
+                    </div>
+                `,
+                tests: [
+                    { year: "۱۴۰۴ نوبت اول", q: "This is the process .................... the seller can be sure that the Bitcoins he or she is receiving are real.", opts: "1) by which  2) by that  3) that  4) for it", ans: "✅ گزینه ۱: by which — بعد از حرف اضافه، which می‌آید.<br>❌ گزینه ۲ (by that) بعد از حرف اضافه that نمی‌آید.<br>❌ گزینه ۳ (that) بدون حرف اضافه.<br>❌ گزینه ۴ (for it) نادرست." },
+                    { year: "۱۴۰۴ نوبت اول", q: "Being independent is not the same as cutting off all ties with family and friends and abandoning those .................... love you.", opts: "1) whom  2) who  3) that  4) love", ans: "✅ گزینه ۲: who — برای افراد (فاعل) از who استفاده می‌شود.<br>❌ گزینه ۱ (whom) برای مفعول.<br>❌ گزینه ۳ (that) برای اشیاء.<br>❌ گزینه ۴ (love) بدون موصولی." },
+                    { year: "۱۴۰۳ نوبت دوم", q: "The history of the English language continues as Middle English becomes Modern English, .................... today.", opts: "1) which is spoken  2) it is spoken  3) that spoken  4) of which spoken", ans: "✅ گزینه ۱: which is spoken — which به کل جمله قبل اشاره دارد.<br>❌ گزینه ۲ (it is spoken) بدون موصولی.<br>❌ گزینه ۳ (that spoken) بدون فعل.<br>❌ گزینه ۴ (of which spoken) حرف اضافه اضافی." },
+                    { year: "۱۴۰۴ نوبت اول", q: "Richard Hamilton, an inventive mathematician .................... helped advance understanding of the fundamental nature of three-dimensional space, died on Sept. 29 in Manhattan.", opts: "1) who devised the Ricci flow which was an equation  2) devised the Ricci flow that was an equation which  3) who devised the Ricci flow, an equation that  4) devised the Ricci flow, an equation which", ans: "✅ گزینه ۳: who devised the Ricci flow, an equation that — 'who' برای معرفی Hamilton + توضیح Ricci flow.<br>❌ گزینه ۱ (who devised ... which was) جمله طولانی.<br>❌ گزینه ۲ (devised ... that was ... which) بدون who.<br>❌ گزینه ۴ (devised ... which) بدون who." },
+                    { year: "۱۴۰۴ نوبت اول", q: "A recent study shows that black children were hospitalized at a rate five .................... white children.", opts: "1) times that of  2) timed those for  3) timed that for  4) times those of", ans: "✅ گزینه ۱: times that of — 'five times that of' (پنج برابر نرخ کودکان سفیدپوست).<br>❌ گزینه ۲ (timed those for) زمان.<br>❌ گزینه ۳ (timed that for) زمان.<br>❌ گزینه ۴ (times those of) those برای جمع." },
+                    { year: "۱۴۰۴ نوبت اول", q: ".................... seems so far to be a safe and effective vaccine candidate, it appears that humanity may be the winner again this time around.", opts: "1) That the emergence of it  2) With the emergence of what  3) Given that it's emergence  4) Its emergence", ans: "✅ گزینه ۲: With the emergence of what — 'With the emergence of what seems to be...' (با ظهور چیزی که به نظر می‌رسد...).<br>❌ گزینه ۱ (That the emergence of it) نادرست.<br>❌ گزینه ۳ (Given that it's emergence) 'it's' اشتباه.<br>❌ گزینه ۴ (Its emergence) ناقص." },
+                    { year: "۱۴۰۴ نوبت اول", q: "All people can attain the highest achievements possible for mankind, .................... learn about the specific mental mechanisms which can be employed to realize dreams.", opts: "1) provided, that is, that they  2) providing that be what they  3) providing that, which they should  4) provided, that is, which they should", ans: "✅ گزینه ۱: provided, that is, that they — 'provided that' به معنی 'به شرطی که'.<br>❌ گزینه ۲ (providing that be what they) نادرست.<br>❌ گزینه ۳ (providing that, which they should) نادرست.<br>❌ گزینه ۴ (provided, that is, which they should) نادرست." },
+                    { year: "۱۴۰۴ نوبت اول", q: "Richard Hamilton, an inventive mathematician .................... helped advance understanding of the fundamental nature of three-dimensional space, died on Sept. 29 in Manhattan.", opts: "1) who devised the Ricci flow which was an equation  2) devised the Ricci flow that was an equation which  3) who devised the Ricci flow, an equation that  4) devised the Ricci flow, an equation which", ans: "✅ گزینه ۳: who devised the Ricci flow, an equation that — 'who' برای معرفی Hamilton + توضیح Ricci flow.<br>❌ گزینه ۱ (who devised ... which was) جمله طولانی.<br>❌ گزینه ۲ (devised ... that was ... which) بدون who.<br>❌ گزینه ۴ (devised ... which) بدون who." },
+                    { year: "۱۴۰۳ نوبت دوم", q: "It is a crime to produce a fake document for the purpose of facilitating the illegal entry of another person in a country .................... he is neither a national nor a permanent resident.", opts: "1) of that  2) that which  3) of which  4) that in", ans: "✅ گزینه ۳: of which — 'a country of which he is neither a national nor a permanent resident'.<br>❌ گزینه ۱ (of that) بعد از حرف اضافه that نمی‌آید.<br>❌ گزینه ۲ (that which) نادرست.<br>❌ گزینه ۴ (that in) حرف اضافه اشتباه." }
+                ]
+            },
+            {
+                id: "reported",
+                icon: "💬",
+                label: "نقل قول",
+                title: "نقل قول (Reported Speech)",
+                lesson: `
+                    <p>در نقل قول، <strong>زمان‌ها و ضمایر</strong> تغییر می‌کنند.</p>
+                    <ul>
+                        <li><strong>قانون اصلی:</strong> زمان فعل معمولاً یک قدم به عقب می‌رود. <br>
+                            Present → Past <br>
+                            Past → Past Perfect <br>
+                            will → would <br>
+                            can → could
+                        </li>
+                        <li><strong>مثال:</strong> <br>
+                            مستقیم: <em>She said, "I am happy."</em> <br>
+                            غیرمستقیم: <em>She said that she was happy.</em>
+                        </li>
+                    </ul>
+                    <div class="example-box">
+                        <strong>💡 نکته طلایی:</strong> اگر زمان نقل قول، گذشته باشد، زمان‌ها یک قدم به عقب می‌روند.
+                    </div>
+                `,
+                tests: [
+                    { year: "۱۴۰۱", q: "Whatever happened that day was our secret. We didn't even tell our parents what ....................", opts: "1) we do  2) did we do  3) we had done  4) had we done", ans: "✅ گزینه ۳: we had done — Past Perfect برای عملی که قبل از گذشته دیگر (didn't tell) رخ داده.<br>❌ گزینه ۱ (we do) حال.<br>❌ گزینه ۲ (did we do) سوالی.<br>❌ گزینه ۴ (had we done) سوالی." },
+                    { year: "۱۴۰۳ نوبت دوم", q: "Justice Jackson said in an interview published on Tuesday that she .................... the Jan. 5, 2022 rally in Berlin.", opts: "1) attending  2) will attend  3) would attended  4) attended", ans: "✅ گزینه ۴: attended — نقل قول از گذشته با حفظ زمان (چون زمان مشخص است).<br>❌ گزینه ۱ (attending) بدون فعل کمکی.<br>❌ گزینه ۲ (will attend) آینده.<br>❌ گزینه ۳ (would attended) would + past participle اشتباه." },
+                    { year: "۱۴۰۴ نوبت اول", q: "That day in Pittsburgh, they were elaborating on something they .................... before, regarding the importance of the new discovery.", opts: "1) say  2) were said  3) should say  4) had said", ans: "✅ گزینه ۴: had said — Past Perfect برای عملی که قبل از گذشته دیگر (were elaborating) رخ داده.<br>❌ گزینه ۱ (say) حال.<br>❌ گزینه ۲ (were said) مجهول.<br>❌ گزینه ۳ (should say) باید بگویند." },
+                    { year: "۱۴۰۴ نوبت اول", q: "In a moment of desperation, .................... would never be able to write again, I started listening to music on my phone, lying on the floor.", opts: "1) I was fearing  2) and feared I  3) fearing I  4) I feared", ans: "✅ گزینه ۳: fearing I — 'fearing I would never be able to write again' (از ترس اینکه دیگر نتوانم بنویسم).<br>❌ گزینه ۱ (I was fearing) زمان استمراری.<br>❌ گزینه ۲ (and feared I) ساختار نادرست.<br>❌ گزینه ۴ (I feared) ناقص." },
+                    { year: "۱۴۰۲ نوبت اول", q: "Bloom argues that Shakespeare gives us something in his writing that the world does not see in literature before. (تصحیح زمان)", opts: "1) gave ... had not seen  2) gives ... has not seen  3) gave ... has not seen  4) gives ... did not see", ans: "✅ گزینه ۱: gave ... had not seen — 'argues that Shakespeare gave' (زمان گذشته) و 'had not seen' (گذشته کامل برای قبل از آن).<br>❌ گزینه ۲ (gives ... has not seen) زمان حال.<br>❌ گزینه ۳ (gave ... has not seen) ترکیب نادرست.<br>❌ گزینه ۴ (gives ... did not see) زمان حال." }
+                ]
+            },
+            {
+                id: "inversion",
+                icon: "🔄",
+                label: "وارونه",
+                title: "ساختارهای وارونه (Inversion)",
+                lesson: `
+                    <p>در برخی ساختارها، <strong>فعل کمکی قبل از فاعل</strong> می‌آید (مثل سوالی کردن جمله).</p>
+                    <ul>
+                        <li><strong>شرطی‌های نوع دوم و سوم با حذف if:</strong> <br>
+                            <em>If I were you → Were I you</em> <br>
+                            <em>If I had known → Had I known</em>
+                        </li>
+                        <li><strong>جملات منفی در ابتدای جمله:</strong> <br>
+                            <em>Never have I seen ...</em> <br>
+                            <em>Rarely have they gone ...</em>
+                        </li>
+                    </ul>
+                    <div class="example-box">
+                        <strong>💡 نکته طلایی:</strong> در وارونه‌سازی، اگر جمله با قید منفی شروع شود، حتماً فعل کمکی قبل از فاعل می‌آید.
+                    </div>
+                `,
+                tests: [
+                    { year: "۱۴۰۰", q: ".................... for my mother living with me, I think I'd be quite lonely.", opts: "1) Were it not  2) If there was not  3) Whether or not it was  4) Not being", ans: "✅ گزینه ۱: Were it not — وارونه‌سازی در شرطی نوع دوم.<br>❌ گزینه ۲ (If there was not) was غلط.<br>❌ گزینه ۳ (Whether or not) عدم اهمیت.<br>❌ گزینه ۴ (Not being) ناقص." },
+                    { year: "۱۴۰۴ نوبت اول", q: "Rarely have they gone into debt to buy their holdings, which means that they do not have to sell land or buildings at low prices to ensure cash flow.", opts: "گزینه صحیح را پیدا کنید", ans: "✅ گزینه ۴: Rarely have they gone — ساختار صحیح وارونه با <strong>Rarely</strong> در ابتدای جمله.<br>❌ گزینه ۱ (They have rarely gone) بدون وارونه.<br>❌ گزینه ۲ (They rarely have gone) بدون وارونه.<br>❌ گزینه ۳ (Rarely they have gone) ترتیب غلط." },
+                    { year: "۱۴۰۳ نوبت اول", q: "Had I realized what you wanted to do in that important meeting, I ....................", opts: "1) wouldn't agree  2) have not agreed  3) shouldn't agree  4) wouldn't have agreed", ans: "✅ گزینه ۴: wouldn't have agreed — وارونه‌سازی شرطی نوع سوم.<br>❌ گزینه ۱ (wouldn't agree) نوع دوم.<br>❌ گزینه ۲ (have not agreed) بدون would.<br>❌ گزینه ۳ (shouldn't agree) باید/نباید." },
+                    { year: "۱۴۰۴ نوبت اول", q: ".................... the concepts of whiteness and maleness from the concept of power can we see the damage the association has done.", opts: "1) When we disentangle  2) Only when we disentangle  3) Not only to disentangle  4) Not while was disentangled", ans: "✅ گزینه ۲: Only when we disentangle — 'Only when' + وارونه‌سازی ('can we see').<br>❌ گزینه ۱ (When we disentangle) بدون وارونه.<br>❌ گزینه ۳ (Not only to disentangle) ناقص.<br>❌ گزینه ۴ (Not while was disentangled) زمان اشتباه." }
+                ]
+            },
+            {
+                id: "participles",
+                icon: "🎨",
+                label: "وجه وصفی",
+                title: "وجه وصفی (Participles)",
+                lesson: `
+                    <p>وجه وصفی دو نوع است: <strong>Present Participle (ing)</strong> و <strong>Past Participle (p.p)</strong>.</p>
+                    <ul>
+                        <li><strong>Present Participle:</strong> حالت فعال — <em>The man standing there is my father.</em></li>
+                        <li><strong>Past Participle:</strong> حالت مجهول — <em>The book written by him is famous.</em></li>
+                        <li><strong>کاربرد:</strong> به جای جمله وصفی (relative clause) استفاده می‌شوند.</li>
+                    </ul>
+                    <div class="example-box">
+                        <strong>💡 نکته طلایی:</strong> اگر جمله وصفی مجهول باشد، از Past Participle استفاده می‌شود: <em>... the challenge faced by companies.</em>
+                    </div>
+                `,
+                tests: [
+                    { year: "۱۴۰۰", q: "Persuading staff to accept new patterns of work is a challenge .................... by many companies that want to develop.", opts: "1) has been faced  2) which faced  3) it is faced  4) faced", ans: "✅ گزینه ۴: faced — Past Participle به عنوان صفت برای جمله مجهول.<br>❌ گزینه ۱ (has been faced) زمان حال کامل.<br>❌ گزینه ۲ (which faced) موصولی با زمان گذشته.<br>❌ گزینه ۳ (it is faced) جمله کامل." },
+                    { year: "۱۴۰۴ نوبت اول", q: "The idea of this approach is to use different levels of modeling, .................... to study phenomena at a certain length scale.", opts: "1) each designed  2) both designing  3) which designed  4) that designing", ans: "✅ گزینه ۱: each designed — ساختار با Past Participle (مجهول).<br>❌ گزینه ۲ (both designing) فعال.<br>❌ گزینه ۳ (which designed) زمان گذشته.<br>❌ گزینه ۴ (that designing) ناقص." },
+                    { year: "۱۴۰۳ نوبت دوم", q: "After being arrested, most juveniles are released to their parents, .................... charged with serious crimes.", opts: "1) but being  2) unless they are  3) contrary to those are  4) except being", ans: "✅ گزینه ۲: unless they are — 'unless they are charged' (مگر اینکه متهم شوند).<br>❌ گزینه ۱ (but being) ناقص.<br>❌ گزینه ۳ (contrary to those are) نادرست.<br>❌ گزینه ۴ (except being) ناقص." },
+                    { year: "۱۴۰۴ نوبت اول", q: "The technology of neuroscience is .................... to genetically engineer insect brains.", opts: "1) enough advanced  2) advanced enough  3) such advanced that  4) advanced such that", ans: "✅ گزینه ۲: advanced enough — 'صفت + enough + to'.<br>❌ گزینه ۱ (enough advanced) ترتیب غلط.<br>❌ گزینه ۳ (such advanced that) such قبل از اسم.<br>❌ گزینه ۴ (advanced such that) نادرست." }
+                ]
+            }
+        ];
+        
+        // ============================================
+        // ساخت دکمه‌های منو
+        // ============================================
+        const nav = document.querySelector('nav');
+        const main = document.querySelector('main');
+        
+        data.forEach((item) => {
+            const btn = document.createElement('button');
+            btn.className = 'btn-section';
+            btn.dataset.id = item.id;
+            btn.innerHTML = `<span class="icon">${item.icon}</span> ${item.label}`;
+            btn.setAttribute('aria-label', `مشاهده مبحث ${item.label}`);
+            btn.addEventListener('click', () => openSection(item.id));
+            nav.appendChild(btn);
+        });
+        
+        // ============================================
+        // تابع باز کردن هر بخش
+        // ============================================
+        function openSection(id) {
+            const section = data.find(d => d.id === id);
+            if (!section) return;
+            
+            document.querySelectorAll('.btn-section').forEach(btn => {
+                btn.classList.remove('active');
+                if (btn.dataset.id === id) btn.classList.add('active');
+            });
+            
+            let testsHTML = '';
+            section.tests.forEach((test, i) => {
+                testsHTML += `
+                    <div class="test-item">
+                        <span class="tag">${test.year}</span>
+                        <div class="q">${i+1}. ${test.q}</div>
+                        <div class="options">${test.opts}</div>
+                        <button class="btn-answer" onclick="toggleAnswer(this)" aria-label="مشاهده پاسخ تشریحی">👁️ نمایش پاسخ</button>
+                        <div class="answer-box"><strong>پاسخ تشریحی:</strong><br>${test.ans}</div>
+                    </div>
+                `;
+            });
+            
+            main.innerHTML = `
+                <button class="back-btn" onclick="window.history.back()" aria-label="بازگشت به صفحه قبل">↩ بازگشت</button>
+                <h2>${section.title}</h2>
+                ${section.lesson}
+                <h3>🎯 تست‌های کنکور (${section.tests.length} تست)</h3>
+                ${testsHTML}
+            `;
+            main.classList.add('open');
+            main.scrollIntoView({ behavior: 'smooth', block: 'start' });
+        }
+        
+        // ============================================
+        // تابع نمایش/مخفی کردن پاسخ
+        // ============================================
+        function toggleAnswer(btn) {
+            const answerBox = btn.nextElementSibling;
+            if (answerBox.classList.contains('open')) {
+                answerBox.classList.remove('open');
+                btn.innerHTML = '👁️ نمایش پاسخ';
+            } else {
+                answerBox.classList.add('open');
+                btn.innerHTML = '🔒 مخفی کردن پاسخ';
+            }
+        }
+        
+        // ============================================
+        // باز کردن اولین بخش به‌صورت پیش‌فرض
+        // ============================================
+        window.onload = function() {
+            openSection('tenses');
+        };
+        
+        // ============================================
+        // Service Worker
+        // ============================================
+        if ('serviceWorker' in navigator) {
+            navigator.serviceWorker.register('/konkur-grammar/sw.js')
+                .then(() => console.log('✅ Service Worker registered'))
+                .catch((err) => console.error('❌ Service Worker failed:', err));
+        }
+    </script>
+</body>
+</html>

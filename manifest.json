@@ -1,0 +1,43 @@
+{
+  "name": "گرامر جامع کنکور زبان",
+  "short_name": "گرامر کنکور",
+  "description": "درسنامه و تست‌های گرامر کنکور تخصصی زبان انگلیسی - ۵ سال اخیر",
+  "start_url": "/konkur-grammar/index.html",
+  "display": "standalone",
+  "background_color": "#f4f6f9",
+  "theme_color": "#0f2b4b",
+  "orientation": "portrait",
+  "categories": ["education", "reference"],
+  "icons": [
+    {
+      "src": "icon-72.png",
+      "sizes": "72x72",
+      "type": "image/png",
+      "purpose": "any"
+    },
+    {
+      "src": "icon-96.png",
+      "sizes": "96x96",
+      "type": "image/png",
+      "purpose": "any"
+    },
+    {
+      "src": "icon-144.png",
+      "sizes": "144x144",
+      "type": "image/png",
+      "purpose": "any"
+    },
+    {
+      "src": "icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png",
+      "purpose": "any maskable"
+    },
+    {
+      "src": "icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "any maskable"
+    }
+  ]
+}
